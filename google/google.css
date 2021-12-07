@@ -1,0 +1,167 @@
+
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 6px 0 0 0;
+}
+
+a{
+    text-decoration: none;
+}
+a:hover
+{text-decoration:underline;}
+
+.link{
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0 5px;
+    color: #202124;
+    font-size: 14px;
+}
+a.link:first-of-type {/*選取第一個*/
+    margin-left: 15px;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    padding:0 6px;
+    justify-self:flex-end;
+    margin-left: auto;
+}
+
+.rightlink-a{
+    display: inline-block;
+    color: rgba(0,0,0,0.87);
+    padding: 0 3px;
+    margin: 0 5px;
+    font-size: 12px;
+}
+.Jiugongge{
+   display: inline-block;
+   padding: 0 20px;
+}
+.Avatar{
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+.logo{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 0 0 0;
+    
+}
+.logo-img{
+    padding: 25px;
+}
+.button{
+    text-align:center;
+}
+.Button1{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 36px;
+   
+}
+.Button2{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;;
+    height: 36px;
+    
+}
+.floor{
+    background: #f2f2f2;
+    
+   
+    
+  
+}
+.Taiwan{
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    
+}
+.end{
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #70757a;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;/*將空白空間分配在東西之間*/
+}
+.end-a{
+    display: inline-block;
+    padding: 0 5px;
+    margin: 0 5px;
+    color: #70757a;
+    font-size: 14px;
+}
+.blank {
+   
+    padding: 0 0 19% 0;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    height: 44px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: 638px;
+    width: auto;
+    max-width: 584px;
+}
+.box:hover{
+    box-shadow:0px 0px 9px rgb(135, 138, 135);
+}
+.icon{
+    position: absolute;
+    left: 1%;
+    top: 11%;
+
+}
+.container-1 input{
+    position: absolute;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -37px;
+    height: 34px;
+    font-size: 16px;
+}
+
+.recording{
+    position: absolute;
+    left: 93%;
+    top: 11%;
+}
